@@ -1,0 +1,19 @@
+{
+  "name": "@time-ago/core",
+  "version": "0.0.0",
+  "description": "core time-ago package",
+  "main": "./dist/cjs/index.js",
+  "module": "./dist/es/index.js",
+  "unpkg": "./dist/umd/index.js",
+  "types": "./dist/types/index.d.ts",
+  "repository": "https://github.com/jtmthf/time-ago",
+  "author": "Jack Moore <jtmthf@mst.edu>",
+  "license": "MIT",
+  "sideEffects": false,
+  "files": [
+    "dist"
+  ],
+  "publishConfig": {
+    "access": "public"
+  }
+}

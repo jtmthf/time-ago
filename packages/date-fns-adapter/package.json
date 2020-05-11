@@ -1,0 +1,36 @@
+{
+  "name": "@time-ago/date-fns-adapter",
+  "version": "0.0.0",
+  "description": "date-fns time-ago adapter",
+  "main": "./dist/cjs/index.js",
+  "module": "./dist/es/index.js",
+  "unpkg": "./dist/umd/index.js",
+  "types": "./dist/types/index.d.ts",
+  "repository": "https://github.com/jtmthf/time-ago",
+  "author": "Jack Moore <jtmthf@mst.edu>",
+  "license": "MIT",
+  "sideEffects": false,
+  "files": [
+    "dist"
+  ],
+  "publishConfig": {
+    "access": "public"
+  },
+  "scripts": {
+    "test": "jest"
+  },
+  "peerDependencies": {
+    "date-fns": "^2.13.0"
+  },
+  "devDependencies": {
+    "@types/jest": "^25.2.1",
+    "@types/ms": "^0.7.31",
+    "date-fns": "^2.13.0",
+    "jest": "^26.0.1",
+    "jest-date-mock": "^1.0.8",
+    "ms": "^2.1.2"
+  },
+  "dependencies": {
+    "@babel/runtime": "^7.9.6"
+  }
+}
